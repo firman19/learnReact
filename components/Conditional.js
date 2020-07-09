@@ -1,8 +1,12 @@
 import React from "react";
 
 function Conditional(props) {
-  console.log(props.isLoading);
-  return <h1>Hello World!!!</h1>;
+  return (
+    <div>
+      <h1>Loading complete!</h1>
+    </div>
+  )
+
 }
 
 export default Conditional;
